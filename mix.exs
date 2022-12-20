@@ -35,7 +35,8 @@ defmodule PhoenixOauth2Provider.Mixfile do
 
   defp deps do
     [
-      {:ex_oauth2_provider, git: "git@github.com:healthstarconnectsllc/ex_oauth2_provider.git"},
+      {:ex_oauth2_provider,
+       git: "https://github.com/healthstarconnectsllc/ex_oauth2_provider.git"},
       {:phoenix, "~> 1.4"},
       {:phoenix_html, "~> 2.0"},
       {:phoenix_ecto, "~> 4.0.0", only: [:test, :dev]},
